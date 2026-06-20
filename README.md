@@ -2,7 +2,7 @@
 
 **TitanBot** is a powerful, feature-rich Discord bot designed to enhance your server experience with comprehensive moderation tools, engaging economy systems, utility features, and much more. Built with modern Discord.js v14 and PostgreSQL for optimal performance and data persistence.
 
-[![Support Server](https://img.shields.io/badge/-Support%20Server-%235865F2?logo=discord&logoColor=white&style=flat-square&logoWidth=20)](https://discord.gg/8kJBYhTGW9)
+[![Support Server](https://img.shields.io/badge/-Support%20Server-%235865F2?logo=discord&logoColor=white&style=flat-square&logoWidth=20)](https://dsc.gg/sharkcore)
 [![Discord.js](https://img.shields.io/npm/v/discord.js?style=flat-square&labelColor=%23202225&color=%23202225&logo=npm&logoColor=white&logoWidth=20)](https://www.npmjs.com/package/discord.js)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-%23336791?logo=postgresql&logoColor=white&style=flat-square&logoWidth=20)
 
@@ -11,7 +11,7 @@
 - [Features Overview](#features-overview)
 - [Quick Setup](#quick-setup)
 - [Manual Installation Steps](#manual-installation-steps)
-- [Support Server](https://discord.gg/QnWNz2dKCE)
+- [Support Server](https://dsc.gg/sharkcore)
 - [Required Bot Intents](#bot-intents)
 - [Contributing](#contributing)
 
@@ -184,7 +184,7 @@ docker pull ghcr.io/codebymitch/titanbot:main
 
 ### Running in multiple servers (optional)
 
-Most users run TitanBot on a **single server** with `GUILD_ID` set (default tutorial setup). If you want commands to work in **every server** the bot is invited to, opt in with:
+Most users run Sharkcore on a **single server** with `GUILD_ID` set (default tutorial setup). If you want commands to work in **every server** the bot is invited to, opt in with:
 
 ```env
 MULTI_GUILD=true
@@ -202,7 +202,7 @@ Notes for multi-server mode:
    # Create database and user
    createdb titanbot
    createuser titanbot
-   psql -c "ALTER USER titanbot PASSWORD 'yourpassword';"
+   psql -c "ALTER USER sharkcore PASSWORD 'yourpassword';"
    psql -c "GRANT ALL PRIVILEGES ON DATABASE titanbot TO titanbot;"
    ```
 
@@ -247,7 +247,7 @@ TitanBot requires the following Discord intents:
 <a name="contributing"></a>
 ## Contributing
 
-We welcome contributions to TitanBot! Here's how you can help:
+We welcome contributions to SharkCore! Here's how you can help:
 
 1. **Fork the repository**
 2. **Create a feature branch**
@@ -263,7 +263,7 @@ We welcome contributions to TitanBot! Here's how you can help:
 
 ## License
 
-TitanBot is released under the MIT License. See [LICENSE](LICENSE) for details.
+Sharkcore is released under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Thank You
 
